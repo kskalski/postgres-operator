@@ -102,7 +102,7 @@ configKubernetes:
   # enables initContainers to run actions before Spilo is started
   enable_init_containers: true
   # toggles pod anti affinity on the Postgres pods
-  enable_pod_antiaffinity: false
+  enable_pod_antiaffinity: true
   # toggles PDB to set to MinAvailabe 0 or 1
   enable_pod_disruption_budget: true
   # enables sidecar containers to run alongside Spilo in the same pod
